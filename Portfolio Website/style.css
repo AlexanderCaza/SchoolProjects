@@ -1,0 +1,323 @@
+* {margin: 0; padding: 0;}
+
+h1, h2, h3 {padding-bottom: 2em;}
+
+main ul {margin-left: 25px;}
+
+body {
+	background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+	background-size: cover;
+	scroll-behavior: smooth;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0px auto;
+	background: black;
+	border: 5px solid #000000;
+}
+
+header {
+	width: 1200px;
+	height: 240px;
+	line-height: 240px;
+	background: url("images/sunset.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+header h1 {
+	color: black;
+	font-size: 120px;
+	font-family: 'Tai Heritage Pro', serif, arial;
+}
+
+nav {
+	width: 1200px;
+	height: 50px;
+	line-height: 50px;
+	background: black;
+	position: -webkit-sticky;
+	position: sticky;
+	border-bottom: 5px solid #8585ad;
+	top: 0;
+	z-index: 2;
+}
+
+nav ul {
+	list-style-type: none;
+  	height: 50px;
+}
+
+nav ul li {
+	float: left;
+	border-left: 5px;
+	border-color: gray;
+}
+
+nav ul li a {
+	color: black;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 10px;
+	font-family: arial, verdana, Times New Roman;
+	text-decoration: none;
+	background: #9999ff;
+	font-size: 18px;
+}
+
+nav ul li a:hover {
+	color: black;
+	background: #d580ff;
+	border-bottom: 5px solid black;
+	transition: background 1s;
+}
+
+main {
+	width: 1200px;
+	float: left;
+	display: flex;
+	line-height: 2em;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: arial, verdana, Times New Roman;
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+
+main ul {
+	list-style-type: square;
+	list-style-position: outside;
+	border: 0px 0px 10px 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: arial, verdana, Times New Roman;
+}
+
+main ol {
+	list-style-type: upper-roman;;
+	list-style-position: inside;
+	padding: 0px 10px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	font-family: arial, verdana, Times New Roman;
+}
+
+main p a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 3px solid black;
+}
+
+main p a:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 5px solid black;
+}
+
+footer {
+	width: 1150px;
+	height: 250px;
+	padding: 25px 25px;
+	background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+	margin-top: 20px;
+	border-radius: 5px;
+	line-height: 2em;
+	text-align: left;
+	clear: both;
+}
+
+footer h3 {
+	color: black;
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+footer h4 {
+	font-family: arial, verdana, Times New Roman;
+	font-size: 24px;
+}
+
+footer h4 span {
+	border-bottom: 4px solid black;
+}
+
+footer ul {
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+footer ul li {
+	background: url("images/arrow.png");
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 25px;
+	background-size: 20px;
+}
+
+footer ul li a {
+	font-family: arial, verdana, Times New Roman;
+	border-left: 5px;
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+footer ul a:hover {
+	border-left: 5px;
+	color: black;
+	font-size: 18px;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	transition: text-decoration 0.5s;
+}
+
+main h2 {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+
+main h2 span {
+	border-bottom: 4px solid black;
+}
+
+main h3 {
+	text-align: center;
+	padding: 30px 0px 5px 0px;
+	border-bottom: 5px;
+	text-align: center;
+}
+
+main h3 span {
+	border-bottom: 4px solid black;
+}
+
+main img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding: 0px;
+	border: 5px solid #8585ad;
+	margin-top: 15px;
+}
+
+#leftcontent {
+	width: 400px;
+	background: #e6e6e6;
+	padding: 25px 25px;
+	float: left;
+	border-bottom-left-radius: 5px;
+}
+
+#rightcontent {
+	width: 800px;
+	background: lightgray;
+	padding: 25px 25px;
+	float: left;
+	border-bottom-right-radius: 5px;
+}
+
+#nopaddingtop {
+	padding-top: 0px;
+}
+
+#nopaddingbottom {
+	padding-bottom: 0px;
+}
+
+#active a {
+	background: #ffff00;
+	color: black;
+	text-decoration: none;
+}
+
+#active a:hover {
+	background: #80ff80;
+	color: black;
+	transition: color 1s;
+}
+
+#portfoliobottom {
+	margin-bottom: 25px;
+}
+
+#vendingmachinetext {
+	display: inline-block;
+	width: 350px;
+	margin-top: 5px;
+	margin-bottom: 250px;
+}
+
+#simonsaystext {
+	display: inline-block;
+	width: 350px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#breakouttext {
+	display: inline-block;
+	width: 350px;
+	margin-top: 5px;
+	padding-bottom: 0px;
+}
+
+#programimage {
+	float: right;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.image {
+  display: block;
+  border: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  padding: 0px;
+  border: 0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8585ad;
+  z-index: 1;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  z-index: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
